@@ -3,7 +3,7 @@ import React from "react";
 
 const Nabvar = () => {
   return (
-    <div className="fixed top-0 z-50 w-full max-w-full text-white bg-blue-500 ">
+    <div className="fixed top-0 z-50 w-full max-w-full text-white bg-primary ">
       <nav className="flex items-center justify-between p-2 m-2">
         <div>
           <Image
@@ -14,16 +14,16 @@ const Nabvar = () => {
           />
         </div>
         <ul className="justify-around hidden text-2xl text-center sm:flex ">
-          <li className="p-2 text-center rounded hover:bg-blue-700">
+          <li className="p-2 text-center rounded hover:bg-secondary">
             <a href="">Home</a>
           </li>
-          <li className="p-2 text-center rounded hover:bg-blue-700">
+          <li className="p-2 text-center rounded hover:bg-secondary">
             <a href="">Products</a>
           </li>
-          <li className="p-2 text-center rounded hover:bg-blue-700">
+          <li className="p-2 text-center rounded hover:bg-secondary">
             <a href="">About</a>
           </li>
-          <li className="p-2 text-center rounded hover:bg-blue-700">
+          <li className="p-2 text-center rounded hover:bg-secondary">
             <a href="">Contacts</a>
           </li>
         </ul>
