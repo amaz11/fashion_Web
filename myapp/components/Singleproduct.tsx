@@ -51,7 +51,7 @@ const Singleproduct = () => {
             className="px-4 text-white rounded bg-primary"
             onClick={handelReset}
           >
-            Reset
+            <i className="fa-solid fa-rotate-left"></i>
           </button>
         </div>
         <p>
